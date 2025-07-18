@@ -1,6 +1,6 @@
 "use strict"; //treat all js code as newer version of the javaScript
 
-//alert=3+3; //we are using nodeJS, not browser
+//alert(3+3); //we are using nodeJS, not browser
 
 console.log(3 + 
     3);//code readablity should be high
@@ -21,7 +21,7 @@ let state = null;
 //undefined => undefined
 //symbol => unique
 
-//Non-Premetive Datatype
+/* Non-Premetive Datatype*/
 //object 
 //array 
 //functions
