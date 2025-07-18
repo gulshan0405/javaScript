@@ -24,10 +24,15 @@ let booleanIsLoggedIn = Boolean(isLoggedIn);
 //"" => false
 //"abc" => true
 
-let someNumber = 33;
+let someNumber = true;
 let stringNumber = String(someNumber);
 // console.log(typeof stringNumber)
 // console.log(stringNumber)
+
+//33 => "33"
+//true => "true"
+//false => "false"
+
 
 // ***************** Opreations ****************//
 
