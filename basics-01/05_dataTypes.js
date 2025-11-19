@@ -29,3 +29,27 @@ const myFUnc = function (){
 }
 
 console.log(typeof(BigInt));
+
+//------------------------------------------
+
+//Memory
+
+//Stack(Premitive) and Heap(NOn-Premitive)
+
+let myYoutubeName="Gulshan004";
+
+let anotherName=myYoutubeName;
+anotherName="chai or code"
+console.log(myYoutubeName)
+console.log(anotherName)
+
+let userOne={
+   email:"user@google.com",
+   upi:"user@ybl"
+}
+
+let userTwo=userOne;
+userTwo.email="user2@google.com"
+console.log(userOne.email)
+ console.log(userTwo.email);
+
